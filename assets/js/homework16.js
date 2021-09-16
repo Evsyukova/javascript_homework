@@ -225,8 +225,8 @@ console.log('130 :', ageClassification(130)); // 130 : null
  */
 
 function oddFn(n) {
-  let arr = [];
-  let i = 0;
+  var arr = [];
+  var i = 0;
 
   while (i++ < n) if (i % 2 !== 0) arr.push(i);
 
